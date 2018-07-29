@@ -7,7 +7,7 @@ render() {
  return (
   <li>
     <button>
-     { {this.props.button_text }
+     { this.props.button_text }
     </button>
   </li>
  )
